@@ -108,7 +108,7 @@ export default () => ({
 
 It re-uses main box and connects ios view to the counter state. CounterState we get from Counter/box.
 [Counter/ios/views/box.js](Counter/ios/views/box.js)
-```javascritpt
+```javascript
 import box from '../../Counter/box';
 import connect from 'actives-react';
 
@@ -188,7 +188,7 @@ export default () => ({
 It re-uses common box and connects web view. There is re-used __CounterState__, just connected __another view__.
 
 [Counter/web/views/box.js](Counter/web/views/box.js)
-```javascritpt
+```javascript
 import box from '../../Counter/box';
 import connect from 'actives-react';
 
