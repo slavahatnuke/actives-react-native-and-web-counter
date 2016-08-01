@@ -8,8 +8,6 @@ It looks like we have:
 - `logic` <-[connected]-> `web view` (dom, react-dom)
 - `logic` <-[connected]-> `ios view` (ios, react-native)
 
-### Example
-
 #### Logic
 [Counter/Counter/CounterService.js](Counter/Counter/CounterService.js)
 ```javascript
