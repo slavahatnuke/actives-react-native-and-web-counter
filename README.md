@@ -75,7 +75,7 @@ export default box;
 ### React-native ios view
 
 [Counter/ios/views/Counter.js](Counter/ios/views/Counter.js)
-```javascritpt
+```jsx
 import React, {Component} from 'react';
 import {View, Text, TouchableHighlight} from 'react-native';
 
@@ -123,7 +123,7 @@ export default box;
 It's runner for ios device. It gets Counter form the box and render (registerComponent).
 
 [Counter/index.ios.js](Counter/index.ios.js)
-```javascritpt
+```jsx
 import React from 'react';
 import {AppRegistry, StyleSheet, View} from 'react-native';
 import box from './ios/views/box';
@@ -156,7 +156,7 @@ AppRegistry.registerComponent('Counter', () => CounterApp);
 
 ### Counter view
 [Counter/web/views/Counter.js](Counter/web/views/Counter.js)
-```javascritpt
+```jsx
 import React from 'react';
 
 export default () => ({
@@ -204,7 +204,7 @@ export default box;
 It uses web box and renders component (counter).
 [Counter/index.web.js](Counter/index.web.js)
 
-```javascritpt
+```jsx
 import React from 'react';
 import {render} from 'react-dom';
 import box from './web/views/box';
