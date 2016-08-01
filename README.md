@@ -1,4 +1,4 @@
-## ReactJS / actives - web and native counter example
+## ReactJS / ReactJS-native / actives - web and native counter example
  
 ### Main Concept
 We have the simplest logic for now totally isolated from views.
